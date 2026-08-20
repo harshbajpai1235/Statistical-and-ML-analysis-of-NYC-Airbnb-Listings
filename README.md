@@ -25,13 +25,10 @@ The analysis is organized around six research questions:
 
 | File | Description |
 | --- | --- |
-| `Project Math 895/Airbnb_Project_Math_895.ipynb` | **Main notebook** — full analysis with executed outputs |
-| `Math_895_Airbnb_Project.ipynb` | Earlier draft of the notebook |
+| `Airbnb_Project_Math_895.ipynb` | **Main notebook** — full analysis with executed outputs |
 | `airbnb_dataset.csv` | NYC Airbnb listings used in the analysis (~20.8k rows) |
-| `Project Math 895/airbnb_dataset.csv` | Same dataset, kept with the final notebook |
 | `895 Project description.pdf` | Course project prompt |
-| `Project Math 895/895_Project_Report_HB.pdf` | Written project report |
-| `Airbnb_Project_Math_895.pdf` | Exported notebook / report PDF |
+| `895_Project_Report_HB.pdf` | Written project report |
 | `895_Project_Presentation_HB.pptx` | Project presentation |
 
 ---
@@ -130,7 +127,7 @@ source .venv/bin/activate   # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-Open `Project Math 895/Airbnb_Project_Math_895.ipynb` in Jupyter or VS Code / Cursor. The notebook loads `airbnb_dataset.csv` from the working directory — run it from `Project Math 895/` or update the read path to `../airbnb_dataset.csv`.
+Open `Airbnb_Project_Math_895.ipynb` in Jupyter or VS Code / Cursor. The notebook loads `airbnb_dataset.csv` from the same directory as the notebook.
 
 ---
 
